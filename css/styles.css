@@ -1,0 +1,111 @@
+
+
+body {
+	background-image: url("../images/Surf_at_Lobster_Cove.png");
+	background-size: cover;
+	min-height: 100%;
+}
+
+main {
+	padding-bottom: 70px;
+
+}
+
+.container {
+	width: 1180px;
+	margin: 0 auto;
+}
+
+.group:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.gillHeader {
+	margin-top: 10px;
+	background-color: rgba(0,50,100,0.6);
+	height: 70px;
+}
+
+.gillHeader h1 > a {
+	text-decoration: none;
+	color: white;
+	float: left;
+	margin-right: 440px;
+	font-size: 32px;
+	font-weight: normal;
+	padding: 15px 10px;
+}
+
+.gillHeader ul {
+	margin-top: 0; 
+}
+
+.gillHeader li > a {
+	text-decoration: none;
+	float: left;
+	color: white;
+	list-style-type: none;
+	font-size: 18px;
+	padding: 5px 20px;
+	margin-top: 20px;
+}
+
+.gillHeader li > a:hover {
+	background-color: rgba(0,50,100,0.6);
+}
+
+.hero > h1 {
+	text-align: center;
+	color: white;
+	font-size: 48px;
+	margin-top: 200px;
+	font-weight: normal;
+}
+.cta {
+	text-align: center;
+	margin-top: 60px;
+}
+
+.cta a {
+	color: white;
+	text-decoration: none;
+	width: 400px;
+	font-size: 30px;
+	padding: 20px 40px;
+	background-color: rgba(0,50,100,0.6);
+	border-radius: 5px;
+	margin-top: 20px;
+}
+
+.cta a:hover {
+	background-color: rgba(0,50,100,0.8);
+
+}
+
+/*footer*/
+
+footer {
+	background-color: #4A5E6C;
+	color: white;
+	height: 70px;
+	margin-top: 250px;
+	position: absolute;
+	width: 100%;
+	bottom: 0;
+}
+
+.copyright {
+	float: left;
+}
+
+
+footer p {
+	padding-top: 10px;
+	float: right;
+	margin-bottom: 0;
+}
+
+
+
